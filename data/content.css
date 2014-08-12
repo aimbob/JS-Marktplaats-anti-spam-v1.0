@@ -1,0 +1,24 @@
+html body table.search-results-table tr.mpasSpammer {
+	/*display: none;*/
+	background-color: red !important;
+}
+
+html body table.search-results-table tr.mpasSpammer td {
+	background-color: transparent !important;
+}
+
+#mpasContainer {
+    position: absolute;
+    right: 0px;
+    height: 100px;
+    top: 0px;
+    width: 250px;
+    background-color: rgba(0,0,0,0.5);
+    max-width: 30%;
+    z-index: 999;
+    color: white;
+}
+
+#mpasLabel {
+	font-weight: bold;
+}

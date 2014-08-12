@@ -1,0 +1,108 @@
+<html>
+	<head>
+
+		<!-- <link rel="stylesheet" href="jquery.checkbox.css" />
+		<link rel="stylesheet" href="jquery.safari-checkbox.css" />
+		<script type="text/javascript" src="jquery.checkbox.min.js"></script> -->
+
+		
+		<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="jquery.mobile-1.4.3.min.js"></script>
+		<script type="text/javascript" src="sidebar.js"></script>
+		<link rel="stylesheet" href="jquery.mobile-1.4.3.min.css" />
+		<!-- <link rel="stylesheet" href="jquery.mobile.theme-1.4.3.min.css" /> -->
+
+		<link rel="stylesheet" href="sidebar.css" />
+
+	</head>
+	<body>
+
+	<div id="sidebarContainer">
+
+	<h2>Verbergen</h2>
+	<table id="container">
+		<tr>
+			<td>
+				<input data-mini="true" data-on-text="aan" data-off-text="uit" data-role="flipswitch" type="checkbox" id="websites" />
+			</td>
+			<td>
+				<label class="hideLabel" for="websites">Advertenties met links</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input data-mini="true" data-role="flipswitch" data-on-text="aan" data-off-text="uit" type="checkbox" id="dagtopper" />
+			</td>
+			<td>
+				<label class="hideLabel" for="dagtopper">Dagtoppers</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input data-mini="true" data-role="flipswitch" data-on-text="aan" data-off-text="uit" type="checkbox" id="hidetop" />
+			</td>
+			<td>
+				<label class="hideLabel" for="hidetop">Topadvertenties</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input data-mini="true" data-role="flipswitch" data-on-text="aan" data-off-text="uit" type="checkbox" id="hideadmarkt" />
+			</td>
+			<td>
+				<label class="hideLabel" for="hideadmarkt">Admart advertenties</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input data-mini="true" data-role="flipswitch" data-on-text="aan" data-off-text="uit" type="checkbox" id="hideextra" />
+			</td>
+			<td>
+				<label class="hideLabel" for="hideextra">Marktplaats Extra</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input data-mini="true" data-role="flipswitch" data-on-text="aan" data-off-text="uit" type="checkbox" id="spammers" />
+			</td>
+			<td>
+				<label class="hideLabel" for="spammers">Spammers</label>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	<h2>Spamlijst</h2>
+
+<form>
+    <input id="filter-for-listview" data-type="search" placeholder="Zoeken">
+</form>
+<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview" id="spamList" data-icon="delete">
+    <li><a href="#" data-asd="asd">Acura</a></li>
+    <li><a href="#">Audi</a></li>
+    <li><a href="#">BMW</a></li>
+    <li><a href="#">Cadillac</a></li>
+    <li><a href="#">Ferrari</a></li>
+    <li><a href="#">Acura</a></li>
+    <li><a href="#">Audi</a></li>
+    <li><a href="#">BMW</a></li>
+    <li><a href="#">Cadillac</a></li>
+    <li><a href="#">Ferrari</a></li>
+    <li><a href="#">Acura</a></li>
+    <li><a href="#">Audi</a></li>
+    <li><a href="#">BMW</a></li>
+    <li><a href="#">Cadillac</a></li>
+    <li><a href="#">Ferrari</a></li>
+    <li><a href="#">Acura</a></li>
+    <li><a href="#">Audi</a></li>
+    <li><a href="#">BMW</a></li>
+    <li><a href="#">Cadillac</a></li>
+    <li><a href="#">Ferrari</a></li>
+</ul>
+
+
+</div>
+	</body>
+</html>

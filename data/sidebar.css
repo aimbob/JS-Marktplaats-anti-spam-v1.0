@@ -1,0 +1,69 @@
+@import 'http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,800';
+
+html { 
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', Verdana, Arial;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F6F6F6;
+}
+
+body, input, select, textarea, button, .ui-btn {
+    font-family: 'Open Sans', Verdana, Arial;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    margin: 10px 0 10px 0 ;
+}
+
+label.hideLabel {
+    vertical-align: bottom;
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#sidebarContainer {
+    margin: 0 20px 20px 20px;
+}
+
+table#container {
+    /*margin: 10px;*/
+}
+
+table#container td {
+    /*padding-bottom: 10px;*/
+}
+
+/*input, label { float: left; vertical-align: middle;line-height: 17px;}*/
+
+table#container label {
+    margin: 0;
+}
+
+.row {
+    float: left;
+    clear:left;
+}
+
+.row .spamlist {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D8D8D8;
+    border-radius: 4px;
+    font-size: 1rem;
+    height: auto;
+    width: 100%;
+    line-height: 34px;
+    padding: 0 10px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.ui-mini {
+    font-size: 10px;
+}

@@ -1,0 +1,51 @@
+{
+	"name": "marktplaatsantispam",
+	"title": "Marktplaats Anti Spam",
+	"id": "jid1-QfUbyqjBKJo2OQ",
+	"description": "Deze add-on bied de mogelijkheid om advertenties van gebruikers naar eigen keuze te verbergen.",
+	"author": "Bob van Ham",
+	"license": "MPL 2.0",
+	"version": "1.1",
+	"preferences": [{
+		"description": "Betaalde advertenties bovenaan resultaten",
+		"name": "advertTop",
+		"type": "bool",
+		"value": true,
+		"title": "Topadvertenties"
+	},
+	{
+		"description": "Betaalde advertenties direct onder Topadvertenties",
+		"name": "advertDay",
+		"type": "bool",
+		"value": false,
+		"title": "Dagtopper"
+	},
+	{
+		"description": "Betaalde advertenties onderaan resultaten",
+		"name": "advertAdmart",
+		"type": "bool",
+		"value": false,
+		"title": "Admart advertenties"
+	},
+	{
+		"description": "Advertenties met een betaalde link",
+		"name": "advertLink",
+		"type": "bool",
+		"value": false,
+		"title": "Advertenties met link"
+	},
+	{
+		"description": "Advertenties geplaatst met Marktplaats Extra",
+		"name": "advertExtra",
+		"type": "bool",
+		"value": false,
+		"title": "Marktplaats Extra advertenties"
+	},
+	{
+		"description": "Advertenties van spammers",
+		"name": "advertSpammers",
+		"type": "bool",
+		"value": false,
+		"title": "Spammers"
+	}]
+}
